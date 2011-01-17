@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_2">
+	<LinearLayout
+		android:gravity="center_vertical"
+		android:background="@drawable/bar"
+		android:orientation="horizontal"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content">
+   		<Button android:id="@+id/home_button"
+   			android:layout_gravity="left"
+	   		android:layout_marginLeft="5px"
+	   		android:background="@drawable/logo"
+	   		android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content" />
+
+	   	<AutoCompleteTextView
+	   		android:layout_gravity="center"  
+			android:id="@+id/actv"
+			android:textSize="12px"
+			android:textColorHint="#CCCCCC"
+			android:singleLine="true"
+			android:textStyle="bold"
+			android:background="@drawable/bg_auto"
+		
+			android:hint="Search"								    
+			android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		 	
+		 	android:padding="14px"
+		  	android:layout_marginRight="10px"
+		  	
+		  	/>
+    </LinearLayout>  
+    
+	<GridView android:id="@+id/gv"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"
+	    android:listSelector="@drawable/list_selected"
+	    android:scrollbars="vertical" 
+	    android:padding="15px"/>
+</LinearLayout> 

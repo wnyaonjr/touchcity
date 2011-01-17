@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:weightSum="100"
+  android:background="@drawable/bg_2">
+	
+	<LinearLayout
+					android:gravity="center"
+					android:background="@drawable/bar"
+					android:orientation="horizontal"
+			    	android:layout_width="fill_parent" 
+			    	android:layout_height="wrap_content">
+			    	<TableLayout android:layout_width="fill_parent" 
+			    		android:layout_height="wrap_content"
+			    		android:gravity="center"
+			    		android:stretchColumns="1">
+			    		<TableRow>
+			    			<Button android:id="@+id/home_button"
+					   			android:layout_gravity="left"
+						   		android:layout_marginLeft="5px"
+						   		android:background="@drawable/logo"
+						   		android:layout_width="wrap_content"
+						   		android:layout_height="wrap_content" />
+						   	<TextView android:layout_width="wrap_content"
+					  			android:layout_height="wrap_content"/>
+						   	
+			    		</TableRow>
+			    	</TableLayout>
+			    </LinearLayout>
+
+				
+
+	  <ScrollView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="fill_parent"
+	  	android:layout_weight="55">
+		  	<LinearLayout
+		  		 android:layout_width="fill_parent"
+				 android:layout_height="wrap_content"
+				 android:orientation="vertical"
+				 android:paddingLeft="10px"
+				 android:paddingRight="10px"
+				 android:paddingTop="5px"
+				 android:paddingBottom="20px">
+				  
+				  	<TextView
+				  	android:id="@+id/com_name"
+				  	android:layout_width="wrap_content"
+				  	android:layout_height="wrap_content"
+				  	android:textSize="20px"
+				  	android:textStyle="bold"
+				  	android:typeface="serif"
+				  	android:textColor="#FFFFFF"
+				  	android:paddingLeft="5px"/>
+				  	<TextView
+				  	android:id="@+id/tag1"
+				  	android:paddingTop="2px"
+				  	android:layout_width="wrap_content"
+				  	android:layout_height="wrap_content"
+				  	android:textStyle="italic"
+				  	android:textSize="12px"
+				  	android:textColor="#FFFFFF"
+				  	android:paddingRight="5px"/>
+				  	
+				  	<TextView
+				  		android:layout_width="fill_parent"
+				  		android:layout_height="wrap_content"
+				  		android:text="Contact Details"
+				  		android:background="@drawable/header_background"
+				  		android:paddingLeft="6px"
+				  		android:textColor="#00008B"
+				  		android:textSize="12px"
+				  		android:textStyle="bold"/>
+				  	
+				  	<TextView
+					  	android:id="@+id/com_add"
+					  	android:layout_width="wrap_content"
+					  	android:layout_height="wrap_content"
+					  	android:textSize="10px"
+					  	android:paddingLeft="10px"
+					  	android:textColor="#FFFFFF"/>
+				  	
+				  	<TextView
+					  	android:id="@+id/com_fon"
+					  	android:layout_width="wrap_content"
+					  	android:layout_height="wrap_content"
+					  	android:textSize="10px"
+					  	android:paddingLeft="10px"
+					  	android:textColor="#FFFFFF"/>
+				  	
+				  	<TextView
+					  	android:id="@+id/com_hour"
+					  	android:layout_width="wrap_content"
+					  	android:layout_height="wrap_content"
+					  	android:textSize="10px"
+					  	android:paddingLeft="10px"
+					  	android:textColor="#FFFFFF"/>
+				  	
+				  	
+						  	<LinearLayout
+						  		android:orientation="vertical"
+						  		android:paddingTop="10px"
+								android:layout_width="fill_parent"
+								android:layout_height="0px"
+								android:layout_weight="20">
+									<TextView
+										android:layout_width="fill_parent"
+								  		android:layout_height="wrap_content"
+								  		android:text="Description"
+								  		android:background="@drawable/header_background"
+				  						android:paddingLeft="6px"
+								  		android:textColor="#00008B"
+								  		android:textSize="12px"
+								  		android:textStyle="bold"/>
+										
+								  	<TextView
+									  	android:id="@+id/com_des"
+									  	android:layout_width="wrap_content"
+									  	android:layout_height="wrap_content"
+									  	android:paddingLeft="10px"
+									  	android:textSize="12px"
+									  	android:textColor="#FFFFFF"/>
+						 	</LinearLayout>
+				 </LinearLayout>	
+	</ScrollView>
+				 	<LinearLayout
+				 		android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:paddingLeft="8px"
+						android:paddingRight="8px">
+						 	<TextView
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:text="Amenities"
+								android:background="@drawable/header_background"
+				  				android:paddingLeft="6px"
+				  				android:textStyle="bold"
+								android:textColor="#00008B"
+								android:textSize="12px"/>
+				 	</LinearLayout>
+				 	<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="wrap_content"
+						android:layout_weight="20"
+						android:layout_height="95px"
+						android:paddingLeft="20px"
+						android:paddingTop="5px">
+						
+						
+								<ImageView
+							  		android:id="@+id/hasCard"
+							  		android:background="@drawable/cardoffer"
+							  		android:layout_width="20px"
+							  		android:layout_height="20px"
+							  		android:layout_marginLeft="2px"
+							  		android:layout_marginRight="2px"
+							  		android:layout_marginTop="2px"
+							  		android:layout_marginBottom="2px"/>
+						  			
+								<ImageView
+							  		android:id="@+id/hasChild"
+							  		android:background="@drawable/childseat"
+							  		android:layout_width="20px"
+							  		android:layout_height="20px"
+							  		android:layout_marginLeft="2px"
+							  		android:layout_marginRight="2px"
+							  		android:layout_marginTop="2px"
+							  		android:layout_marginBottom="2px"/>
+							  		
+								<ImageView
+							  		android:id="@+id/hasDiner"
+							  		android:background="@drawable/diners"
+							  		android:layout_width="20px"
+							  		android:layout_height="20px"
+							  		android:layout_marginLeft="2px"
+							  		android:layout_marginRight="2px"
+							  		android:layout_marginTop="2px"
+							  		android:layout_marginBottom="2px"/>
+									  		
+								<ImageView
+							  		android:id="@+id/hasMaster"
+							  		android:background="@drawable/mastercard"
+							  		android:layout_width="20px"
+							  		android:layout_height="20px"
+							  		android:layout_marginLeft="4px"
+							  		android:layout_marginRight="4px"
+							  		android:layout_marginTop="4px"
+							  		android:layout_marginBottom="4px"/>
+									  		
+								<ImageView
+							  		android:id="@+id/hasPark"
+							  		android:background="@drawable/parking"
+							  		android:layout_width="20px"
+							  		android:layout_height="20px"
+							  		android:layout_marginLeft="4px"
+							  		android:layout_marginRight="4px"
+							  		android:layout_marginTop="4px"
+							  		android:layout_marginBottom="4px"/>
+									  		
+								<ImageView
+							  		android:id="@+id/hasVip"
+							  		android:background="@drawable/vip"
+							  		android:layout_width="20px"
+							  		android:layout_height="20px"
+							  		android:layout_marginLeft="4px"
+							  		android:layout_marginRight="4px"
+							  		android:layout_marginTop="4px"
+							  		android:layout_marginBottom="4px"/>
+							  		
+								<ImageView
+							  		android:id="@+id/hasVisa"
+							  		android:background="@drawable/visa"
+							  		android:layout_width="20px"
+							  		android:layout_height="20px"
+							  		android:layout_marginLeft="4px"
+							  		android:layout_marginRight="4px"
+							  		android:layout_marginTop="4px"
+							  		android:layout_marginBottom="4px"/>
+								  		
+								<ImageView
+							  		android:id="@+id/hasVoucher"
+							  		android:background="@drawable/voucher"
+							  		android:layout_width="20px"
+							  		android:layout_height="20px"
+							  		android:layout_marginLeft="4px"
+							  		android:layout_marginRight="4px"
+							  		android:layout_marginTop="4px"
+							  		android:layout_marginBottom="4px"/>
+								  		
+								<ImageView
+							  		android:id="@+id/hasWifi"
+							  		android:background="@drawable/wifi"
+							  		android:layout_width="20px"
+							  		android:layout_height="20px"
+							  		android:layout_marginLeft="4px"
+							  		android:layout_marginRight="4px"
+							  		android:layout_marginTop="4px"
+							  		android:layout_marginBottom="4px"/>
+											
+								<ImageView
+							  		android:id="@+id/hasMenu"
+							  		android:background="@drawable/menu"
+							  		android:layout_width="20px"
+							  		android:layout_height="20px"
+							  		android:layout_marginLeft="4px"
+							  		android:layout_marginRight="4px"
+							  		android:layout_marginTop="4px"
+							  		android:layout_marginBottom="4px"/>
+											
+								<ImageView
+							  		android:id="@+id/hasDelivery"
+							  		android:background="@drawable/delivery"
+							  		android:layout_width="20px"
+							  		android:layout_height="20px"
+							  		android:layout_marginLeft="4px"
+							  		android:layout_marginRight="4px"
+							  		android:layout_marginTop="4px"
+							  		android:layout_marginBottom="4px"/>
+						</LinearLayout>	
+
+ 	<LinearLayout
+  		android:layout_width="fill_parent"
+  		android:layout_height="125px"
+  		android:orientation="horizontal"
+  		android:layout_weight="15"
+  		android:paddingLeft="15px"
+  		android:paddingRight="15px"
+		android:background="@drawable/bg_3">
+			  
+			  <Button
+			  		android:id="@+id/photo"
+			  		android:background="@drawable/image_n_img"
+			  		android:layout_width="50px"
+			  		android:layout_height="50px"
+			  		android:layout_marginLeft="20px"
+			  		android:paddingTop="10px">
+			  </Button>
+			  
+			  <Button
+			  		android:id="@+id/audio"
+			  		android:background="@drawable/image_p_img"
+			  		android:layout_width="50px"
+			  		android:layout_height="50px"
+			  		android:layout_marginLeft="40px"
+			  		android:layout_marginRight="30px"
+			  		android:paddingTop="10px">
+			  </Button>
+			  
+			  <Button
+			  		android:id="@+id/video"
+			  		android:background="@drawable/video_img"
+			  		android:layout_width="50px"
+			  		android:layout_height="50px"
+			  		android:layout_marginLeft="20px"
+			  		android:paddingTop="10px">
+			  </Button>
+  	</LinearLayout>
+  	
+</LinearLayout>

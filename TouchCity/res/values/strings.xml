@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MapsActivity!</string>
+    <string name="app_name">Touch City</string>
+    <string name="street_view">Street View</string>
+    <string name="satelite_view">Satelite View</string>
+    
+    
+</resources>
