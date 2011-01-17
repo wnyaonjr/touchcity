@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+	      
+	  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	      android:orientation="vertical"
+	      android:layout_width="fill_parent"
+	      android:layout_height="fill_parent"
+	      android:background="@drawable/bg_2"
+	      >
+			    <LinearLayout
+					android:gravity="center"
+					android:background="@drawable/bar"
+					android:orientation="horizontal"
+			    	android:layout_width="fill_parent" 
+			    	android:layout_height="wrap_content">
+			    	<TableLayout android:layout_width="fill_parent" 
+			    		android:layout_height="wrap_content"
+			    		android:gravity="center"
+			    		android:stretchColumns="1">
+			    		<TableRow>
+			    			<Button android:id="@+id/home_button"
+					   			android:layout_gravity="left"
+						   		android:layout_marginLeft="5px"
+						   		android:background="@drawable/logo"
+						   		android:layout_width="wrap_content"
+						   		android:layout_height="wrap_content" />
+						   	<TextView android:layout_width="wrap_content"
+					  			android:layout_height="wrap_content"/>
+						   	<Button android:id="@+id/search_icon_btn"
+						   		android:layout_gravity="center"
+					  			android:background="@drawable/search_icon_img"
+					  			android:layout_width="wrap_content"
+					  			android:layout_height="wrap_content"
+					  			android:layout_marginRight="20px"/>
+			    		</TableRow>
+			    	</TableLayout>
+			    </LinearLayout>
+				
+				<TextView android:id="@+id/loc"
+				    android:layout_width="fill_parent" 
+				    android:layout_height="wrap_content"
+				    android:textStyle="bold"
+				    android:textColor="#FFFFFF"
+				    android:paddingLeft="10px" />
+				
+				<FrameLayout
+				  		android:layout_weight="1"
+						android:gravity="center"
+				    	android:layout_width="fill_parent" 
+				    	android:layout_height="fill_parent"
+					    android:paddingLeft="10px"
+					    android:paddingRight="10px" >
+    	    
+					<GridView android:id="@+id/gv"
+					    android:layout_width="fill_parent" 
+					    android:layout_height="wrap_content"
+					    android:listSelector="@drawable/list_selected" />
+					    
+		    		<TextView android:id="@+id/no_data"
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:textSize="12px"
+				        android:textColor="#00008B"
+				        android:textStyle="bold"
+				        android:typeface="sans"
+				        android:background="#ADD8E6"
+				        android:paddingLeft="5px"
+				        android:text="No data to display."
+				        android:visibility="gone" />
+				
+				</FrameLayout>
+				    
+				<LinearLayout
+					android:gravity="center"
+					android:background="@drawable/bar_categories1"
+					android:orientation="vertical"
+			    	android:layout_width="wrap_content" 
+			    	android:layout_height="wrap_content">
+		    	
+			    	<TableLayout
+			    		android:layout_gravity="center"
+			    		android:gravity="center_horizontal"
+			    		android:layout_width="fill_parent"
+			    		android:layout_height="wrap_content"
+			    		android:stretchColumns="*">
+			    				    		
+						    	<TableRow>
+						    	
+						    		<LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="2px" android:layout_gravity="center_vertical">
+							  			<Button android:id="@+id/all_btn"
+							  				android:background="@drawable/all_img"
+							  				android:layout_width="wrap_content"
+							  				android:layout_gravity="bottom"
+							  				android:layout_height="wrap_content" />
+							  		</LinearLayout>
+							  		
+						    		<LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="2px" >
+							  			<Button android:id="@+id/shopping_btn"
+							  				android:background="@drawable/shopping_img"
+							  				android:layout_width="wrap_content"
+							  				android:layout_height="wrap_content" />
+							  		</LinearLayout>
+						    		
+						  			<LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="2px" >
+							  			<Button android:id="@+id/nightlife_btn"
+							  				android:background="@drawable/nightlife_img"
+							  				android:layout_width="wrap_content"
+							  				android:layout_height="wrap_content" />
+							  		</LinearLayout>
+							  		
+							  		<LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="2px" >
+							  			<Button android:id="@+id/dining_btn"
+							  				android:background="@drawable/dining_img"
+							  				android:layout_width="wrap_content"
+							  				android:layout_height="wrap_content" />
+							  		</LinearLayout>
+						  			<LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="2px" >
+							  			<Button android:id="@+id/learn_btn"
+							  				android:background="@drawable/learn_img"
+							  				android:layout_width="wrap_content"
+							  				android:layout_height="wrap_content" />
+							  		</LinearLayout>
+							  		
+							  		<LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="2px" >
+							  			<Button android:id="@+id/beauty_btn"
+							  			android:background="@drawable/beauty_img"
+							  			android:layout_width="wrap_content"
+							  			android:layout_height="wrap_content" />
+							  		</LinearLayout>
+						    		
+						  			<LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+							  			<Button android:id="@+id/travel_btn"
+							  				android:background="@drawable/travel_img"
+							  				android:layout_width="wrap_content"
+							  				android:layout_height="wrap_content" />
+							  		</LinearLayout>
+						    	</TableRow>
+						    </TableLayout>
+
+			   
+				</LinearLayout>
+				
+	  </LinearLayout>

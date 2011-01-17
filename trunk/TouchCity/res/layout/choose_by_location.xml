@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	      
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:background="@drawable/map">
+
+			<LinearLayout
+				android:gravity="center_vertical"
+				android:background="@drawable/bar"
+				android:orientation="horizontal"
+		    	android:layout_width="fill_parent" 
+		    	android:layout_height="wrap_content">
+		   		<Button android:id="@+id/home_button"
+		   			android:layout_gravity="left"
+			   		android:layout_marginLeft="5px"
+			   		android:background="@drawable/logo"
+			   		android:layout_width="wrap_content"
+			   		android:layout_height="wrap_content" />
+		    </LinearLayout>  
+	      		      
+	  <LinearLayout 
+	      android:orientation="vertical"
+	      android:layout_width="fill_parent"
+	      android:layout_height="fill_parent"
+	      android:background="@drawable/map"
+	      >	  
+		  <LinearLayout
+		      android:orientation="horizontal"
+		      android:layout_width="fill_parent"
+		      android:layout_height="0px"
+		      android:layout_weight="35"
+		      android:weightSum="100">		
+		      <Button
+			    android:layout_width="0px" 
+			    android:layout_height="wrap_content"
+		      	android:layout_weight="43"
+		      	android:visibility="invisible" />
+			    
+		      <Button android:id="@+id/button1"
+			    android:layout_width="0px" 
+			    android:layout_height="wrap_content"
+			    android:background="@drawable/manila_btn_img"
+			    android:layout_gravity="bottom"
+		      	android:layout_weight="25"/>	
+			    	      
+			    <Button
+			    android:layout_width="0px" 
+			    android:layout_height="wrap_content"
+		      android:layout_weight="32"
+		      	android:visibility="invisible" />
+		</LinearLayout>
+
+		<LinearLayout
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="0px"
+		    android:layout_weight="9"
+		    >						    
+		      <Button
+			    android:layout_width="fill_parent" 
+			    android:layout_height="fill_parent"
+		      	android:layout_weight="30"
+		      	android:visibility="invisible" />
+
+		</LinearLayout>
+				
+		<LinearLayout
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="0px"
+		    android:weightSum="100"
+		    android:layout_weight="9"
+		    >						    
+		      <Button
+			    android:layout_width="0px" 
+			    android:layout_height="fill_parent"
+		      	android:layout_weight="30"
+		      	android:visibility="invisible" />
+			    
+		      <Button android:id="@+id/button3"
+			    android:layout_width="0px" 
+			    android:layout_height="wrap_content"
+			    android:background="@drawable/boracay_btn_img"
+			    android:layout_gravity="bottom"
+		      	android:layout_weight="25"/>	
+			    	      
+			    <Button
+			    android:layout_width="0px" 
+			    android:layout_height="fill_parent"
+		      	android:layout_weight="45"
+		      	android:visibility="invisible" />
+		</LinearLayout>
+		
+		<LinearLayout
+	      android:orientation="horizontal"
+	      android:layout_width="fill_parent"
+	      android:layout_height="0px"
+		  android:layout_weight="47"
+		  android:weightSum="100"
+	      >		 
+		      <Button
+			    android:layout_width="0px" 
+			    android:layout_height="wrap_content"
+		      	android:layout_weight="67"
+			    android:background="@drawable/manila_btn"
+		      	android:visibility="invisible" />
+			    
+		      <Button android:id="@+id/button2"
+			    android:layout_width="0px" 
+			    android:layout_height="wrap_content"
+			    android:background="@drawable/cebu_btn_img"
+		      	android:layout_weight="25"
+		      	android:layout_gravity="top"/>	
+			    	      
+			    <Button
+			    android:layout_width="0px" 
+			    android:layout_height="wrap_content"
+			    android:background="@drawable/manila_btn"
+		      	android:layout_weight="8"
+		      	android:visibility="invisible" />
+		</LinearLayout>
+		</LinearLayout>		
+  </LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <Button
+  		android:id="@+id/play"
+  		android:background="@drawable/play"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="Start playing">
+  </Button>
+  
+  <Button
+  		android:id="@+id/pause"
+  		android:background="@drawable/pause"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="paused">
+  </Button>
+  
+  <Button
+  		android:id="@+id/reset"
+  		android:background="@drawable/reset"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="reset">
+  </Button>
+</LinearLayout>

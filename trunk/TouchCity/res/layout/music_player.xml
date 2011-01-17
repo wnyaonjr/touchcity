@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/bg_2">
+  <LinearLayout
+		android:gravity="center_vertical"
+		android:background="@drawable/bar"
+		android:orientation="horizontal"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content">
+   		<Button android:id="@+id/home_button"
+   			android:layout_gravity="left"
+	   		android:layout_marginLeft="5px"
+	   		android:background="@drawable/logo"
+	   		android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+    <LinearLayout
+		 		android:layout_width="fill_parent"
+		 		android:layout_height="wrap_content"
+		 		android:orientation="horizontal">
+				 	<TextView
+				 		android:id="@+id/title"
+				 		android:layout_width="fill_parent"
+				 		android:layout_height="wrap_content"
+				 		android:textSize="15px"
+				 		android:padding="2px"
+				 		android:paddingLeft="10px"
+				 		android:textStyle="bold"
+				 		android:typeface="serif"
+						android:textColor="#FFFFFF"				 		
+						android:gravity="center"/>
+			</LinearLayout>
+    
+    <LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center">
+		
+	  	<VideoView
+			android:id="@+id/myvideo"
+			android:layout_gravity="center"
+			android:layout_width="250px"
+			android:layout_height="142px"/>
+	  
+	  	<LinearLayout
+	  		android:layout_gravity="center"
+	  		android:gravity="center"
+	  		android:orientation="horizontal"
+			android:layout_width="250px" 
+			android:layout_height="60px"
+			android:paddingBottom="10px"
+			android:background="@drawable/player_background">
+				<Button
+			  		android:id="@+id/stop"
+			  		android:background="@drawable/stop_img"
+			  		android:layout_width="40px"
+				  	android:layout_height="40px"/>
+				<Button
+			  		android:id="@+id/play_pause"
+			  		android:background="@drawable/pause_img"
+			  		android:layout_width="40px"
+				  	android:layout_height="40px"
+				  	android:layout_marginLeft="10px"
+				  	android:layout_marginRight="10px"/>
+			  
+				<Button
+			  		android:id="@+id/reset"
+			  		android:background="@drawable/reset_img"
+			  		android:layout_width="40px"
+				  	android:layout_height="40px"/>
+		</LinearLayout>
+	  
+	</LinearLayout>
+</LinearLayout>

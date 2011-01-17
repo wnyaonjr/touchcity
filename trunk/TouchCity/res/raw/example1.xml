@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<outertag>
+	<innertag sampleattribute="innertagAttribute">
+		<mytag>anddev.org rulez =)</mytag>
+		<tagwithnumber thenumber="1337"/>
+	</innertag>
+</outertag>
